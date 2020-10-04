@@ -1,0 +1,24 @@
+footer {
+    background-color: rgba(0,0,0,0.7);
+  font-family: "Lato", sans-serif;
+  padding: 3px 0 20px 0;
+}
+@media(max-width:500px){
+	font-size:16px;
+}
+.footer-heading{
+	color:white;
+}
+.about1{
+	color:white !important;
+	font-size:12px;
+}
+.about1:hover{
+	color:blue !important;
+	
+}
+.i1{
+	font-size:1.5em;
+	margin-top:30px;
+	margin-left:10px;
+}

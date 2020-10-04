@@ -1,0 +1,410 @@
+@media (max-width : 486px) {
+	.container-skills {
+		width:300px !important;
+	}
+	.bar-title {
+ 
+	font-size: 15px !important;
+	
+}
+	img{
+	height:30px !important;
+	width:30px !important;
+}
+}
+@media (min-width : 800px) {
+	.container-skills {
+		width:750px !important;
+	}
+}
+.container-skills {
+	margin: 20px auto 0 auto;
+  width: 400px;
+
+}
+
+.bar {
+  position: relative;
+	background-color: rgba(245,245,245,0.5);
+	height: 20px;
+	margin: 0 0 20px 0;
+}
+.bar-fill {
+  position: absolute;
+  height: 10px;
+}
+.bar-title {
+  position: relative;
+	font-size: 20px;
+	text-align: left;
+	margin: 0 0 5px 0;
+	font-weight:700;
+	
+}
+.percent {
+  position: absolute;
+	right: 0;
+}
+
+/* Animations Below - Replace ease-out with infinite for infinite loop*/
+/*Edit here for html*/  
+.bar-fill-html {
+	width: 90%;
+  background-color: #e44d26;
+	animation: bar-fill-html 2s ease-out;
+	-moz-animation: bar-fill-html 2s ease-out;
+  -webkit-animation: bar-fill-html 2s ease-out;
+}
+@keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-moz-keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-webkit-keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+/*Edit here for Javascript*/
+.bar-fill-javascript {
+	width: 60%;
+  background-color: #f8dc3d;
+  animation: bar-fill-javascript 2s ease-out;
+	-moz-animation: bar-fill-javascript 2s ease-out;
+  -webkit-animation: bar-fill-javascript 2s ease-out;
+}
+@keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-moz-keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-webkit-keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+/*Edit here for Jquery*/
+.bar-fill-jquery{
+	width: 60%;
+  background-color: rgb(42, 96, 245);
+  animation: bar-fill-jquery 2s ease-out;
+	-moz-animation: bar-fill-jquery 2s ease-out;
+  -webkit-animation: bar-fill-jquery 2s ease-out;
+}
+@keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-moz-keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-webkit-keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+/*Edit here for Responsive*/
+.bar-fill-responsive{
+	width: 90%;
+  background-color: rgb(31, 37, 54);
+  animation: bar-fill-responsive 2s ease-out;
+	-moz-animation: bar-fill-responsive 2s ease-out;
+  -webkit-animation: bar-fill-responsive 2s ease-out;
+}
+@keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-moz-keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-webkit-keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+/*Edit here for Mongo*/
+.bar-fill-mongo{
+	width: 70%;
+  background-color: rgb(102, 0, 1);
+  animation: bar-fill-mongo 2s ease-out;
+	-moz-animation: bar-fill-mongo 2s ease-out;
+  -webkit-animation: bar-fill-mongo 2s ease-out;
+}
+@keyframes bar-fill-mongo {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-moz-keyframes bar-fill-mongo {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-webkit-keyframes bar-fill-mongo {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+/*Edit here for Nodejs*/
+.bar-fill-node {
+	width: 80%;
+  background-color:  #429f46;
+  animation: bar-fill-node 2s ease-out;
+	-moz-animation: bar-fill-node 2s ease-out;
+  -webkit-animation: bar-fill-node 2s ease-out;
+}
+@keyframes bar-fill-node {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@-moz-keyframes bar-fill-node {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@-webkit-keyframes bar-fill-node {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+/*Edit here for Bootstrap*/
+.bar-fill-bootstrap {
+	width: 95%;
+  background-color:  rgb(48, 0, 120);
+  animation: bar-fill-bootstrap 2s ease-out;
+	-moz-animation: bar-fill-bootstrap 2s ease-out;
+  -webkit-animation: bar-fill-bootstrap 2s ease-out;
+}
+@keyframes bar-fill-bootstrap {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+@-moz-keyframes bar-fill-bootstrap {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+@-webkit-keyframes bar-fill-node {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+/*Edit here for express*/
+.bar-fill-express {
+	width: 70%;
+  background-color:  rgb(20, 50, 54);
+  animation: bar-fill-express 2s ease-out;
+	-moz-animation: bar-fill-express 2s ease-out;
+  -webkit-animation: bar-fill-express 2s ease-out;
+}
+@keyframes bar-fill-express {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-moz-keyframes bar-fill-express {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-webkit-keyframes bar-fill-express {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+
+
+/*Edit here for C*/
+.bar-fill-C {
+	width: 75%;
+  background-color: rgb(42, 96, 245);;
+  animation: bar-fill-express 2s ease-out;
+	-moz-animation: bar-fill-C 2s ease-out;
+  -webkit-animation: bar-fill-C 2s ease-out;
+}
+@keyframes bar-fill-C {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@-moz-keyframes bar-fill-C {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@-webkit-keyframes bar-fill-C {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+/*Edit here for API*/
+.bar-fill-api {
+	width: 95%;
+  background-color: rgb(117, 39, 79);
+  animation: bar-fill-api 2s ease-out;
+	-moz-animation: bar-fill-api 2s ease-out;
+  -webkit-animation: bar-fill-api 2s ease-out;
+}
+@keyframes bar-fill-api {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+@-moz-keyframes bar-fill-api {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+@-webkit-keyframes bar-fill-api {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+img{
+	height:50px;
+	width:50px;
+}

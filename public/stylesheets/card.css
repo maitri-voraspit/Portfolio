@@ -1,0 +1,137 @@
+@media (max-width : 480px) {
+	.head .container-fluid .card{
+   
+	width:320px !important;
+	}
+	.head .container-fluid .card .imgBX{
+	
+  position: relative;
+ width: 280px !important;
+	}
+	.head .container-fluid .card .imgBX img{
+width: 280px !important;
+		height:230px !important;
+   
+
+}
+	 .head .container-fluid .card:hover{
+  height: 430px !important;
+
+} 
+}
+@media (max-width : 992px) {
+	.head .container-fluid .card{
+		margin:80 auto !important;
+	}
+}
+.heading{
+	margin:-50px auto 0 auto;
+}
+body.cont {
+   background-image:url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+	background-attachment:fixed;
+    width: 100%;
+    height:100vh;
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+  transform: translateX(0);
+  transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+  opacity: 0;
+  transform: translateX(0);
+} 
+h2{
+	font-family: 'Acme', sans-serif;
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+body, html {
+  height: 100%;
+}
+
+.font{
+	font-family: 'Sansita Swashed', cursive;
+}
+
+
+
+.head .container-fluid{
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  
+}
+.head .container-fluid .card{
+   position: relative; 
+	display:inline; 
+	width:440px;
+  height:300px;
+     background: linear-gradient(to bottom, #cc99ff 8%, #ffffcc 103%);
+  margin: 100 auto;
+ 
+  display:flex;
+  flex-direction:column;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.head .container-fluid .card:hover{
+  height: 400px;
+
+}
+
+.head .container-fluid .card .imgBX{
+	
+  position: relative;
+  width:390px;
+  
+  top:-60px;
+  left:20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2); ;
+}
+
+.head .container-fluid .card .imgBX img{
+width: 390px;
+    height: 280;
+
+border-radius:4px;
+
+}
+.head .container-fluid .card .content{
+  position: relative;
+  margin-top:-140px;
+  padding: 10px 15px;
+  text-align: center;
+  color:#111;
+  visibility: hidden;
+  opacity:0;
+  transition:0.3s ease-in-out;
+}
+.head .container-fluid .card:hover .content{
+
+  visibility: visible;
+  opacity:1;
+  margin-top:-40px;
+
+}
+
